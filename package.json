@@ -1,14 +1,16 @@
 {
-  "version": "1.0.97",
-  "name": "bun-hono",
-  "devDependencies": {
-    "bun-types": "latest"
-  },
-  "dependencies": {
-    "hono": "^2.2.5"
-  },
-  "scripts": {
-    "start": "bun run src/index.ts"
-  },
-  "module": "src/index.js"
+    "version": "1.0.97",
+    "name": "bun-hono",
+    "devDependencies": {
+        "bun-types": "latest"
+    },
+    "dependencies": {
+        "hono": "^2.2.5",
+        "zod": "^3.21.4"
+    },
+    "scripts": {
+        "start": "bun run src/index.ts",
+        "dev": "bun run --hot src/index.ts"
+    },
+    "module": "src/index.js"
 }
